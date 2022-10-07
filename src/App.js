@@ -2,6 +2,7 @@
 import './App.css';
 import Chart from './component/Chart/Chart';
 import Navbar from './component/Navber/Navbar';
+import PhoneChart from './component/PhoneChart/PhoneChart';
 import PricePlan from './component/PricePlan/PricePlan';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
        <Navbar></Navbar>
        <PricePlan></PricePlan>
        <Chart></Chart>
+       <PhoneChart></PhoneChart>
     </div>
   );
 }
