@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+ 
 import './App.css';
+import Chart from './component/Chart/Chart';
+import Navbar from './component/Navber/Navbar';
+import PricePlan from './component/PricePlan/PricePlan';
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App mx-6'>
+       <Navbar></Navbar>
+       <PricePlan></PricePlan>
+       <Chart></Chart>
     </div>
   );
 }
